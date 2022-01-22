@@ -4,7 +4,7 @@ import Footer from './Footer';
 import Section from './Section';
 function App() {
 
-  const header1Title = "Microsoft Corporatio"; 
+  const header1Title = "Microsoft Corporation"; 
   return (
     <div id='max'>
       <Header header1={header1Title} header2="Herzliya, Israel" image='microsoft.png'/>      
