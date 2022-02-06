@@ -1,11 +1,12 @@
 import React from 'react'
-
-const SectionTitle = ({title,sect,keta}) => {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+const SectionTitle = ({title,icon,sect,keta}) => {
     return (
         <div className='a'>
             <div className='ss'>
                 <h4>
-                    {title}
+                    <FontAwesomeIcon icon={icon} /> 
+                    {title }                    
                 </h4>
                 <div>
                     {sect}
